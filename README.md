@@ -1,6 +1,6 @@
 # project-service
 
-A simple Express microservice to serve the innov8 graphQL Server
+A simple Express microservice to serve the definitely-not-reddit graphQL Server
 
 ## Getting Started
 

@@ -1,7 +1,7 @@
 {
-  "name": "project-service",
+  "name": "comment-service",
   "version": "1.0.0",
-  "description": "micro service for retrieving the software projects",
+  "description": "micro service for retrieving definitely-not-reddit comments",
   "main": "server.js",
   "scripts": {
     "test": "jest --no-watchman"

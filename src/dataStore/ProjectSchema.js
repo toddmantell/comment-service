@@ -1,14 +1,9 @@
 const mongoose = require('mongoose');
 
-const ProjectSchema = new mongoose.Schema({
+const CommentSchema = new mongoose.Schema({
   id: Number,
-  name: String,
-  team: {
-    name: String,
-    lead: String,
-    qa: [String],
-    developers: [String]
-  }
+	author: String,
+	body: String
 });
 
 mongoose.model('Project', ProjectSchema);
