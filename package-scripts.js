@@ -1,5 +1,5 @@
 module.exports = {
   scripts: {
-    default: "nodemon src/server"  
+    default: "nodemon -r dotenv/config src/server"  
   }
 }
